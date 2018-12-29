@@ -1,0 +1,42 @@
+
+#blok3 {
+    background:  url(/wp-content/themes/wikiwp/images/leto.png) no-repeat;
+    padding: 100px;
+    text-align: center;
+    width: 200px;
+    height:200px;
+    margin: auto;
+   -moz-transition: all 1s 0.1s ease-in;
+    -o-transition: all 1s 0.1s ease-in;
+    -webkit-transition: all 1s 0.1s ease-in;
+	cursor: pointer;
+}
+  
+  #blok3:hover {
+    background:  url(/wp-content/themes/wikiwp/images/zima.png) no-repeat;
+    color: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg); 
+    -o-transform: rotate(360deg); 
+}
+#div
+{
+	
+	
+	top:10px;
+	left:auto;
+	width: 300px;
+    height:300px;
+	margin: auto;
+	
+}
+
+#but
+{
+	position:relative;
+	top:5px;
+	left:auto;
+	width: 100px;
+    
+	margin: auto;
+}

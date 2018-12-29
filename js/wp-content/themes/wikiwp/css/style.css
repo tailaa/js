@@ -1,0 +1,48 @@
+body {
+  background: url('video.png');
+  background-size: cover;
+}
+@font-face {
+    font-family: azoft-sans; /* Гарнитура шрифта */
+    src: url(azoft-sans.ttf); /* Путь к файлу со шрифтом */
+   }
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.block_1{
+    margin: auto;   
+}
+.block_1 h1{
+    font-family: azoft-sans, 'Comic Sans MS';
+}
+.block_2 {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background: #FFF;
+    opacity: 0.5;
+    filter: alpha(Opacity=50);
+    border-radius: 15px;
+}
+.block_2 p {
+    padding: 5px;
+    font-family: azoft-sans, 'Comic Sans MS';
+    opacity: 1;
+    filter: alpha(Opacity=100);
+    color: #000;
+}
+.code {
+	background-color: #dadada;
+	border-left: 3px solid #2aa1d3;
+	display: block;
+    padding: 5px;
+}
+
